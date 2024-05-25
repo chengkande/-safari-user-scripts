@@ -1,4 +1,6 @@
 
+@name: dark-mode
+
 function my_dark_mode_init() {
   new Darkmode().showWidget();
 }
