@@ -3,8 +3,6 @@ function my_dark_mode_init() {
   new Darkmode().showWidget();
 }
 
-window.addEventListener('load', addDarkmodeWidget);
-
 fetch('https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js')
     .then(response => {
         if (!response.ok) {
